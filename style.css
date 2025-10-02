@@ -22,8 +22,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #007acc; /* Header background */
-  color: white;
+  background-color: #ffffff; /* Header background */
+  color: #000000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   position: sticky; /* Makes header sticky */
   top: 0;
@@ -36,6 +36,7 @@ body {
 
 .site-title {
   font-size: 1.8rem;
+  color: #000000;
 }
 
 /* ============================
@@ -47,13 +48,13 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #000000;
   font-weight: bold;
   margin: 0 10px;
 }
 
 nav a:hover {
-  color: #ffcc00;
+  color: #555555;
 }
 
 /* ============================
