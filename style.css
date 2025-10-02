@@ -24,6 +24,7 @@ body {
   padding: 10px 20px;
   background-color: #ffffff; /* Header background */
   color: #000000;
+  border-bottom: 1px solid #ddd; /* Subtle bottom border */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   position: sticky; /* Makes header sticky */
   top: 0;
