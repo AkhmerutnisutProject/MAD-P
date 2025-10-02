@@ -71,7 +71,7 @@ nav a:hover {
    Main Content Styles
 ============================ */
 main {
-  max-width: 1000px;
+  width: 95%;               /* Take 95% of browser width */
   margin: 80px auto 20px auto; /* Add top margin for sticky header */
   padding: 20px;
   background-color: #ffffff;    /* Main content white */
