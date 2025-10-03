@@ -10,7 +10,7 @@
 
 body {
   line-height: 1.6;
-  background-color: #ffffff; /* Page background white */
+  background-color: linear-gradient(135deg, #f0f4f8, #e6ebf2); /* Subtle color gradient outside main */
   color: #333;
 }
 
@@ -22,7 +22,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #ffffff; /* Header background */
+  background-color: linear-gradient(90deg, #dfe9f3, #ffffff); /* Soft gradient header */
   color: #000000;            /* Black text */
   border-bottom: 1px solid #ddd; /* Subtle bottom border */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
