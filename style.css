@@ -125,7 +125,7 @@ img {
 
 .team-section img {
   display: inline-block; 
-  max-width: 60%;       /* Smaller image (60% of container width) */
+  max-width: 50%;       /* Smaller image (60% of container width) */
   height: auto;
   border-radius: 5px;
 }
