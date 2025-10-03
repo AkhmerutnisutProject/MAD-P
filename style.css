@@ -127,6 +127,30 @@ img {
 }
 
 /* ============================
+   Donate Section (Support Page)
+============================ */
+.donate-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.paypal-button {
+  background-color: #0070ba;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.paypal-button:hover {
+  background-color: #005c99;
+}
+
+/* ============================
    Responsive Header & Navigation
 ============================ */
 @media (max-width: 600px) {
