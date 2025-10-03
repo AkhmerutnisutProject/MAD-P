@@ -10,7 +10,7 @@
 
 body {
   line-height: 1.6;
-  background: linear-gradient(135deg, #f0f4f8, #e6ebf2); /* Subtle gradient outside main */
+  background: linear-gradient(135deg, #f5f5f5, #e0e0e0); /* Subtle grey gradient outside main */
   color: #333;
 }
 
@@ -22,9 +22,9 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background: linear-gradient(90deg, #dfe9f3, #ffffff); /* Soft gradient */
+  background: linear-gradient(90deg, #f0f0f0, #e6e6e6); /* Soft grey gradient header */
   color: #000000;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 0;
