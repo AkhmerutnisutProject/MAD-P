@@ -22,7 +22,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background: linear-gradient(90deg, #f0f0f0, #e6e6e6); /* Soft grey gradient header */
+  background: linear-gradient(90deg, #f0f0f0, #eaeaea); /* Soft grey gradient header */
   color: #000000;
   border-bottom: 1px solid #ccc;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
