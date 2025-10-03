@@ -10,7 +10,7 @@
 
 body {
   line-height: 1.6;
-  background-color: linear-gradient(135deg, #f0f4f8, #e6ebf2); /* Subtle color gradient outside main */
+  background: linear-gradient(135deg, #f0f4f8, #e6ebf2); /* Subtle gradient outside main */
   color: #333;
 }
 
@@ -22,22 +22,29 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: linear-gradient(90deg, #dfe9f3, #ffffff); /* Soft gradient header */
-  color: #000000;            /* Black text */
-  border-bottom: 1px solid #ddd; /* Subtle bottom border */
+  background: linear-gradient(90deg, #dfe9f3, #ffffff); /* Soft gradient */
+  color: #000000;
+  border-bottom: 1px solid #ddd;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  position: sticky;           /* Makes header sticky */
+  position: sticky;
   top: 0;
   z-index: 1000;
 }
 
+/* Group logo + title */
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .logo {
-  height: 50px; /* Logo size */
+  height: 50px;
 }
 
 .site-title {
   font-size: 1.8rem;
-  color: #000000; /* Black title */
+  color: #000000;
 }
 
 /* ============================
@@ -47,32 +54,32 @@ nav {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  flex-wrap: wrap; /* Wrap on small screens */
-  gap: 15px;       /* Space between links */
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 nav a {
   text-decoration: none;
-  color: #000000;          /* Black links */
+  color: #000000;
   font-weight: bold;
   margin: 0 10px;
   padding: 8px 15px;
   border-radius: 5px;
-  transition: all 0.3s ease; /* Smooth hover transition */
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
-  background-color: #f0f0f0; /* Light gray background on hover */
-  color: #007acc;            /* Optional accent color */
-  transform: translateY(-2px); /* Slight lift effect */
+  background-color: #f0f0f0;
+  color: #007acc;
+  transform: translateY(-2px);
 }
 
 /* ============================
    Main Content Styles
 ============================ */
 main {
-  width: 95%;                 /* Take most of viewport width */
-  margin: 20px auto 20px auto; /* Reduced top margin to bring closer to nav */
+  width: 95%;
+  margin: 20px auto;
   padding: 20px;
   background-color: #ffffff;    
   border-radius: 8px;
@@ -92,18 +99,18 @@ img {
 }
 
 /* ============================
-   Video Section Styles
+   Video Section
 ============================ */
 .video-section {
-  text-align: center; /* Centers heading and video */
+  text-align: center;
   margin: 30px 0;
 }
 
 .video-container {
-  display: inline-block; /* Keeps iframe centered */
+  display: inline-block;
   max-width: 100%;
-  width: 560px; /* Default width */
-  height: 315px; /* Default height */
+  width: 560px;
+  height: 315px;
 }
 
 .video-container iframe {
@@ -112,20 +119,20 @@ img {
 }
 
 /* ============================
-   Team Section Styles (About Page)
+   Team Section (About Page)
 ============================ */
 .team-section {
-  text-align: center; /* Centers heading and image */
+  text-align: center;
   margin: 30px 0;
 }
 
-.team-section p {
-  font-style: italic;  /* Makes heading italic */
+.team-section h3 {
+  font-style: italic;
 }
 
 .team-section img {
-  display: inline-block; 
-  max-width: 50%;       /* Smaller image (60% of container width) */
+  display: inline-block;
+  max-width: 60%; /* smaller image */
   height: auto;
   border-radius: 5px;
 }
@@ -155,7 +162,7 @@ img {
 }
 
 /* ============================
-   Responsive Header & Navigation
+   Responsive Design
 ============================ */
 @media (max-width: 600px) {
   .site-header {
@@ -163,8 +170,9 @@ img {
     text-align: center;
   }
 
-  .logo {
-    margin-bottom: 10px;
+  .branding {
+    flex-direction: column;
+    gap: 5px;
   }
 
   nav {
@@ -178,5 +186,13 @@ img {
     text-align: center;
     margin: 5px 0;
   }
-}
 
+  .video-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .team-section img {
+    max-width: 90%;
+  }
+}
