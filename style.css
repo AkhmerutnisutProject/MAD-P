@@ -47,6 +47,12 @@ body {
   color: #000000;
 }
 
+/* Make logo + title links look clean */
+.branding a {
+  text-decoration: none;
+  color: inherit; /* use the current text color */
+}
+
 /* ============================
    Navigation Styles
 ============================ */
