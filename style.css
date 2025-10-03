@@ -119,9 +119,13 @@ img {
   margin: 30px 0;
 }
 
+.team-section h3 {
+  font-style: italic;  /* Makes heading italic */
+}
+
 .team-section img {
-  display: inline-block; /* Keeps image centered */
-  max-width: 100%;       /* Responsive image */
+  display: inline-block; 
+  max-width: 60%;       /* Smaller image (60% of container width) */
   height: auto;
   border-radius: 5px;
 }
