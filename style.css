@@ -101,6 +101,11 @@ main {
   max-width: none;
 }
 
+/* Justify all paragraphs in main content */
+main p {
+  text-align: justify;
+}
+
 /* ============================
    Image Styles
 ============================ */
