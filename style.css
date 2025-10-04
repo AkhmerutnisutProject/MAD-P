@@ -111,6 +111,11 @@ main p {
   text-align: center;
 }
 
+/* Class for manually left-aligned text */
+.left-text {
+  text-align: left;
+}
+
 /* ============================
    Image Styles
 ============================ */
