@@ -116,6 +116,10 @@ main p {
   text-align: left;
 }
 
+.italic-text {
+  font-style: italic;
+}
+
 /* ============================
    Image Styles
 ============================ */
@@ -153,10 +157,6 @@ img {
 .team-section {
   text-align: center;
   margin: 30px 0;
-}
-
-.team-section p {
-  font-style: italic;
 }
 
 .team-section img {
