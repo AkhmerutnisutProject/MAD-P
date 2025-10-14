@@ -169,12 +169,12 @@ img {
 /* ============================
    Plan Section (About Page)
 ============================ */
-.team-section {
+.plan-section {
   text-align: center;
   margin: 30px 0;
 }
 
-.team-section img {
+.plan-section img {
   display: inline-block;
   max-width: 60%; /* smaller image */
   height: auto;
