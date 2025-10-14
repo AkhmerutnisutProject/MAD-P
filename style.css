@@ -167,6 +167,21 @@ img {
 }
 
 /* ============================
+   Plan Section (About Page)
+============================ */
+.team-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.team-section img {
+  display: inline-block;
+  max-width: 60%; /* smaller image */
+  height: auto;
+  border-radius: 5px;
+}
+
+/* ============================
    Donate Section (Support Page)
 ============================ */
 .donate-section {
